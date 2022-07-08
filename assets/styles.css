@@ -111,6 +111,7 @@ img {
 
 .nav-list a:hover {
     color: var(--main-green);
+    transition: all 200ms ease-in;
 }
 
 .welcome-section {
