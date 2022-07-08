@@ -46,3 +46,30 @@ body {
     color: var(--main-white);
 }
 
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight; 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+img {
+    display: block;
+    width: 100%
+}
