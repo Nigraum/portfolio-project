@@ -268,3 +268,22 @@ img {
   .contact-details:hover {
       transform: translateY(8px);
   }
+
+  footer {
+      font-weight: 300;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      background: var(--main-gray);
+      border-top: 4px solid var(--light-purple);
+  }
+
+  footer > p {
+      margin: 2rem;
+  }
+
+  @media (max-width: 28.75em) {
+      footer {
+          text-align: center
+      }
+  }
