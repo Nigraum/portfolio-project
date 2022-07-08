@@ -1,8 +1,10 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
+    --main-purple: #290742;
     --main-blue: #45567d;
     --main-gray: #303841;
+    --main-green: #4fff4b;
+    --light-purple: #9E6DC2;
 }
 
 * {
@@ -81,8 +83,8 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    background: var(--main-purple);
+    box-shadow: 0 2px 0 var(--main-green);
     z-index: 10;
 }
 
@@ -108,7 +110,7 @@ img {
 }
 
 .nav-list a:hover {
-    color: var(--main-blue);
+    color: var(--main-green);
 }
 
 .welcome-section {
@@ -130,27 +132,27 @@ img {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-red);
+    color: var(--light-purple);
 }
 
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-blue);
+    background: var(--main-white);
   }
-  
+
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    color: var(--light-purple)
   }
-  
+
   @media (max-width: 28.75em) {
     .projects-section-header {
       font-size: 4rem;
     }
   }
-  
+
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -160,38 +162,38 @@ img {
     margin: 0 auto;
     margin-bottom: 6rem;
   }
-  
+
   @media (max-width: 30.625em) {
     .projects-section {
       padding: 6rem 1rem;
     }
-  
+
     .projects-grid {
       grid-template-columns: 1fr;
     }
   }
-  
+
   .project {
     background: var(--main-gray);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
   }
-  
+
   .code {
     color: var(--main-gray);
     transition: color 0.3s ease-out;
   }
-  
+
   .project:hover .code {
-    color: #ff7f50;
+    color: var(--light-purple);
   }
-  
+
   .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
   }
-  
+
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
@@ -209,13 +211,13 @@ img {
   }
 
   .btn-show-all:hover {
-    background: var(--main-red);
+    background: var(--light-purple);
   }
-  
+
   .btn-show-all:hover > i {
     transform: translateX(2px);
   }
-  
+
   .btn-show-all > i {
     margin-left: 10px;
     transform: translateX(0);
