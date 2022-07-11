@@ -24,3 +24,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [x] Uso semântico do HTML
 - [x] Responsividade da aplicação com `@media`
 - [x] Menu de Navegação
+- [x] Uso de variáveis globais no `:root`
